@@ -1,0 +1,50 @@
+#mainContact{
+    background-color: rgb(32, 32, 32);  
+    width:100%;
+    height:auto;
+    padding-left:15%;
+    padding-right:15%;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+#contactInfo{
+    height:100%;
+    padding:5%;
+    text-align:right;
+    float:left;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+#map{
+    width:100%;
+}
+#formArea{
+    width:50%;
+    height:auto;
+    color:white;
+    float:left;
+}
+#resumeArea{
+    width:50%;
+    color:white;
+    float:right;
+}
+a.contactEmail:link{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+    color:white;
+}
+a.contactEmail:hover{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:underline;
+    color:white;
+}
+@media only screen and (max-width: 1000px) {
+    #mainContact{
+        margin-right:0;
+        margin-left:0;
+    }
+  }
+.documentImg{
+    height:150px;
+}

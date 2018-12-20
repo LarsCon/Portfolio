@@ -1,0 +1,70 @@
+#top{
+    width:100%;
+    height:auto;
+    position:fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+}
+#topNotFixed{
+    height:125px;
+    width:100%;
+    background-color: #FFDBC5;
+}
+#topBar{
+    width: 100%;
+    height: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    font-size: 200%;
+    padding-bottom: 2%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#topContact{
+    float:right;
+    text-align:right;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 30%;
+    font-size:50%;
+}
+
+nav{
+    width:100%;
+    height:4%;
+    background-color: rgb(32, 32, 32);  
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: .5%;
+    font-size: 100%;
+    padding-bottom: .5%;
+    color:white;
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
+#navSocial{
+    float:right;
+    text-align:right;
+    height: 100%;
+    width: 15%;
+}
+.navLinkText{
+    margin-right: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+a.email:link{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration:none;
+    color:black;
+}
+a.email:hover{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration:underline;
+    color:black;
+}

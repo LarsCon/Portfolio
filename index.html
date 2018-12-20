@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Open+Sans+Condensed:300" rel="stylesheet">
+
+    <link rel='stylesheet' href="css/main.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<div id='top'>
+<div id='topBar'>
+  Lars Conard's Portfolio
+  <div id='topContact'>
+    <a href='mailto:lars.conard@gmail.com' class="email">lars.conard@gmail.com</a><br>
+    (765)891-1108
+  </div>
+</div>
+<nav>
+  <a href='index.html'><font class='navLinkText'>Home</font></a>
+  <a href='#bio'><font class='navLinkText'>Bio</font></a>
+  <a href='#work'><font class='navLinkText'>Selected Work</font></a>
+  <a href='#contact'><font class='#navLinkText'>Contact</font></a>
+  <div id='navSocial'>
+    <a href='https://www.linkedin.com/in/larsvconard/' target=_blank><img src="./assets/img/linkedin.png" height=20px></a>
+    <a href='https://codepen.io/larscon/' target=_blank><img src="./assets/img/github.png" height=20px></a>
+  </div>
+</nav>
+</div>
+<div id='topNotFixed'></div>
+<div id='indexMain'>My Digital Portfolio</a>
+</div>
+
+<a name='bio'></a>
+<div id='aboutMain'>
+<center>
+  <div id='aboutMainL'>
+  <img src='./assets/img/me.png' width=80% class='circle'>
+</div>
+<div id='aboutMainR'>
+<h1>CAREER GOALS</h1>
+<p class='main'>My ultimate goal is to find a career that exercises my creative license with my knowledge of technology and design. I desire to create front end graphics for various applications as well as experimenting with new technology. I have a laid back style that does well at portraying messages and drawing eyes.</p>
+</div></center>
+</div>
+
+<center>
+<a name='work'></a>
+<div id='projectMain'>
+  <div class='items'>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/img/pacman.gif" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">PAC-MAN</h5>
+          <p class="card-text">Recreated, and animated, PAC-MAN chasing a ghost using HTML and CSS</p>
+          <a href="https://codepen.io/larscon/pen/dQLOgj" target=_blank class="btn btn-primary">Visit Work</a>
+        </div>
+      </div>
+    </div>
+
+  <div class='items'>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/img/firstWeb.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">First HTML</h5>
+          <p class="card-text">Not my first wesite, but a website none the less</p>
+          <a href="./firsthtml/index.html" target=_blank class="btn btn-primary">Visit Work</a>
+        </div>
+      </div>
+    </div>
+ 
+  <div class='items'>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/img/logo.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">API Manipulation</h5>
+          <p class="card-text">This is my first try at using an API to browse data</p>
+          <a href="./api/index.html" target=_blank class="btn btn-primary">Visit Work</a>
+        </div>
+      </div>
+    </div>
+</center>
+<a name='contact'></a>
+<div id='mainContact'>
+  <div id='formArea'>
+    <form action="https://formspree.io/lars.conard@gmail.com" method="POST">
+      <center>
+      <h1>CONTACT</h1>
+      Name<br>
+      <input type="text" name="name"><br>
+      Email<br>
+      <input type="email" name="_replyto">
+      <br><br>
+      <input type="submit" value="Send"><br><br>
+      </center>
+    </form>
+  </div>
+  <div id='resumeArea'>
+    <center><h1>MY RESUME</h1>
+    <a href='./assets/resume.pdf' target=_blank><img src='./assets/img/document.png' class='documentImg'></a></center>
+  </div>
+  <div id='map'>
+<iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=indianapolis&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/webdesign-muenchen/"></a></div><style>.mapouter{text-align:right;height:300px;width:450px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:450px;}</style>
+</div>
+</div>
+<footer>
+<div class='footerContent'>
+<h2>Follow</h2><br>
+<a href='https://codepen.io/larscon/' target=_blank><img src="./assets/img/githubB.png" class='contactIcon'></a>
+<a href='https://www.linkedin.com/in/larsvconard/' target=_blank><img src="./assets/img/linkedinB.png" class='contactIcon'></a>
+</div>
+<div class='footerContent'>
+<h2>Contact</h2><br>
+lars.conard@gmail.com<br>
+765-891-1108
+</div>
+<div class='footerContentr'>
+<h2>Address</h2><br>
+Indianapolis, IN, USA
+</div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src='./js/main.js'></script>
+</div>
+</body>
+</html>

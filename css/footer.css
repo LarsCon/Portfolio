@@ -1,0 +1,35 @@
+footer{
+    height:auto;
+    width:100%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align:center;
+}
+.footerContent{
+    height:auto;
+    width:33%;
+    text-align:center;
+    float:left;
+    margin-bottom:5%;
+    font-size: 2vw;
+}
+.footerContentr{
+    height:auto;
+    width:34%;
+    text-align:center;
+    float:right;
+    font-size: 2vw;
+}
+.contactIcon{
+    width:20%;
+}
+@media only screen and (min-width: 1000px) {
+.footerContent{
+    font-size: 16px;
+}
+.footerContentr{
+    font-size: 16px;
+}
+}

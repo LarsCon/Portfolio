@@ -1,0 +1,23 @@
+#projectMain{
+    height:auto;
+    width:100%;
+    padding-left:15%;
+    padding-right:15%;
+    text-align:center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.items{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin-top: 3%;
+}
+@media only screen and (max-width: 1160px) {
+    #projectMain{
+        padding-left:0%;
+        padding-right:0%;
+    }
+  }
